@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/tab_dashboard" />
+    <item
+        android:id="@+id/nav_food_scanner"
+        android:icon="@drawable/ic_scanner"
+        android:title="@string/tab_food_scanner" />
+    <item
+        android:id="@+id/nav_ai_assistant"
+        android:icon="@drawable/ic_assistant"
+        android:title="@string/tab_ai_assistant" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/tab_profile" />
+</menu>

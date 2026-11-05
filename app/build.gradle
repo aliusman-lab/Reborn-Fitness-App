@@ -1,0 +1,46 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'com.alilab.reborn'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.alilab.reborn"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    androidResources {
+        noCompress 'tflite'
+    }
+
+    buildTypes {
+        release {
+            optimization {
+                enable false
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+
+    // TensorFlow Lite / LiteRT
+    implementation 'org.tensorflow:tensorflow-lite:2.16.1'
+
+    // UI Components
+    implementation 'androidx.cardview:cardview:1.0.0'
+}

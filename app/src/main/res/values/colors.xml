@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Theme Hex Colors -->
+    <color name="bg_dark">#07101F</color>
+    <color name="bg_dark_secondary">#0D1B2E</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_hint">#64748B</color>
+    <color name="accent_yellow">#FFCC00</color>
+    <color name="accent_yellow_dark">#E6B800</color>
+    <color name="accent_yellow_alpha30">#4DFFCC00</color>
+
+    <!-- Glassmorphism Container Colors -->
+    <color name="glass_card_bg">#1815233D</color>
+    <color name="glass_card_border">#2E3D56</color>
+    <color name="glass_input_bg">#0F1C30</color>
+    <color name="glass_input_border">#283852</color>
+    <color name="glass_chip_unselected">#111F35</color>
+
+    <!-- Navigation Colors -->
+    <color name="nav_bg">#0A1426</color>
+    <color name="nav_item_unselected">#64748B</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
